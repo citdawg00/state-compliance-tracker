@@ -139,12 +139,12 @@ if uploaded_file is not None:
             notes = "Do not meet employee threshold for certificate; current reporting fulfills requirements"
             comp = "Ensure pay transparency in job posting"
          
- ============================
-# GLOBAL NDE OVERRIDE
-# ============================
-if nde != "Yes" and status == "YES":
-    status = "CONDITIONAL"
-    notes = "Underlying nondiscriminatory compliance not satisfied (NDE not completed)"
+       # ============================
+       # GLOBAL NDE OVERRIDE
+       # ============================
+       if nde != "Yes" and status == "YES":
+           status = "CONDITIONAL"
+           notes = "Underlying nondiscriminatory compliance not satisfied (NDE not completed)"
         # ==========================
         # FINAL OUTPUT ROW
         # ==========================
