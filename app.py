@@ -142,9 +142,9 @@ if uploaded_file is not None:
        # ============================
        # GLOBAL NDE OVERRIDE
        # ============================
-       if nde != "Yes" and status == "YES":
-           status = "CONDITIONAL"
-           notes = "Underlying nondiscriminatory compliance not satisfied (NDE not completed)"
+        if nde != "Yes" and status == "YES":
+            status = "CONDITIONAL"
+            notes = "Underlying nondiscriminatory compliance not satisfied (NDE not completed)"
         # ==========================
         # FINAL OUTPUT ROW
         # ==========================
